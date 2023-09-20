@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- <div class="output">
+        <div class="previous-operand "></div>
+      </div> -->
+      <div class="row">
+        <input id="inputClaca" type="text" class="input" />
+       </div>
+      <div class="row">
+        <button class="col cl" onclick="Clear()">CL</button>
+        <button class="col del" onclick="del()">DEL</button>
+        <button class="col calca" onclick="button('%')">%</button>
+        <button class="col calca" onclick="button('/')">/</button>
+      </div>
+      <div class="row">
+        <button class="col" onclick="button('9')">9</button>
+        <button class="col" onclick="button('8')">8</button>
+        <button class="col" onclick="button('7')">7</button>
+        <button class="col calca" onclick="button('*')">*</button>
+      </div>
+      <div class="row">
+        <button class="col" onclick="button('6')">6</button>
+        <button class="col" onclick="button('5')">5</button>
+        <button class="col" onclick="button('4')">4</button>
+        <button class="col calca" onclick="button('+')">+</button>
+      </div>
+      <div class="row">
+        <button class="col" onclick="button('3')">3</button>
+        <button class="col" onclick="button('2')">2</button>
+        <button class="col" onclick="button('1')">1</button>
+        <button class="col calca" onclick="button('-')">-</button>
+      </div>
+      <div class="row">
+        <button class="col" onclick="button('0')">0</button>
+        <button class="col" onclick="button('.')">.</button>
+        <button class="col-6 equal" onclick="equal('=')">=</button>
+      </div>
+    </div>
+    <script src="javaScripte/calculater.js"></script>
+  </body>
+</html>
